@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    background: #004d99;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+    flex: 1;
+}
+.sidebar {
+    width: 220px;
+    background: #f4f4f4;
+    padding: 1rem;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar a {
+    display: block;
+    padding: 8px;
+    color: #333;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background: #ddd;
+    border-radius: 5px;
+}
+.content {
+    flex: 1;
+    padding: 1.5rem;
+}
+.footer {
+    background: #eee;
+    text-align: center;
+    padding: 0.7rem;
+}
+ /* //login// */
+ 
+ .login-body {
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+.login-container {
+    background: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-container label {
+    font-weight: bold;
+}
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #004d99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
